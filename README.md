@@ -1,2 +1,2 @@
 # Khushi_compiler
-We were asked to make compiler as a part of our assesment, and here is mine.
+This is a compiler I have made using python3 as a part of our assesment 
