@@ -1,7 +1,16 @@
 from tkinter import *
 from tkinter.filedialog import asksaveasfilename, askopenfilename
 import subprocess
+import parser
 
+exp = "9 - 5"
+print(exp)
+st = parser.expr(exp)
+print(st)
+code = st.compile()
+print(code)
+res = eval(code)
+print(res)
 compiler = Tk()
 compiler.title('Welcome to my Compiler')
 file_path = ''
