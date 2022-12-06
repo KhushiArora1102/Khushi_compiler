@@ -11,10 +11,10 @@ code = st.compile()
 print(code)
 res = eval(code)
 print(res)
+
 compiler = Tk()
 compiler.title('Welcome to my Compiler')
 file_path = ''
-
 
 def set_file_path(path):
     global file_path
