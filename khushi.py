@@ -2,7 +2,14 @@ from tkinter import *
 from tkinter.filedialog import asksaveasfilename, askopenfilename
 import subprocess
 import parser
+import re
 
+def tokenize(txt):
+    tokens = re.split('\W+', txt)
+    return tokens
+    data['msg_clean_tokenized'] = data['msg_clean'].apply(lambda x: tokenize (x.lower()))
+    data.head()
+    
 exp = "9-5+4*2"
 print(exp)
 st = parser.expr(exp)
