@@ -3,7 +3,7 @@ from tkinter.filedialog import asksaveasfilename, askopenfilename
 import subprocess
 import parser
 
-exp = "9 - 5"
+exp = "9-5+4*2"
 print(exp)
 st = parser.expr(exp)
 print(st)
