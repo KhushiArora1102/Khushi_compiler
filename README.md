@@ -3,4 +3,4 @@
 This is a basic compiler created using python
 
 # Technologies Used
-'#0969DA' Python
+Python
