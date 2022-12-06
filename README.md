@@ -3,5 +3,4 @@
 This is a basic compiler created using python
 
 # Technologies Used
-Python
-<span style="color: green"> Some green text </span>
+<span style="color: green"> Python </span>
